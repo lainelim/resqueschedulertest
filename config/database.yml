@@ -81,5 +81,5 @@ test:
 
 production:
   adapter: postgresql
-  database: dapkqttff1o2fk
-  url: <%= ENV['HEROKU_POSTGRESQL_GRAY_URL'] %>
+  database: ddm4q5id2utd3b
+  url: <%= ENV['DATABASE_URL'] %>
