@@ -1,0 +1,8 @@
+everyday_job:
+  every:
+    - "2m"
+  queue: mailers
+  class: Testmail
+  args:
+  description: runs perform method in ApplicationJob
+  rails_envs: development, production, staging
