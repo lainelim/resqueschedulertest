@@ -12,4 +12,4 @@ Resque.redis = config[Rails.env]
 Resque.schedule = schedule
 
 # set a custom namespace for redis (optional)
-# Resque.redis.namespace = "resque:"
+Resque.redis.namespace = "resque:"
